@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TASKLIST</title>
+    <style>
+        .all{
+            background: url(our-work-20.jpg) no-repeat center/cover;
+            display: flexbox;
+            margin: 20px;
+             
+        }
+        .taskcontainer{
+            font-size: 1.5rem;
+            color:whitesmoke;
+            text-align: 50px right;
+            justify-content: center;
+
+
+        }
+        h1{
+            color: rgb(165, 128, 73);
+        }
+        h2{
+            font-size: 2rem;
+            color:rgb(128, 97, 58);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+         input{
+            margin-right:10px;
+            border-radius: 12px;
+            font-size: 1.2em;
+            color:black;
+            justify-content: center;
+            text-align: center;
+            margin-left: 100px;
+         }
+
+         .btn{
+            flex: 1;
+            font-size: 15px;
+            border-radius: 4px;
+            color:black;
+            transition: 0.5s;
+            box-shadow: 20px;
+
+         }
+         .btn:hover{
+            background-color:black;
+            color:wheat;
+            
+        
+            
+         }
+    </style>
+</head>
+<body class="all">
+    <!-- <button class="btn1"><img src="dark_mode_FILL0_wght400_GRAD0_opsz48.png" width="30px" alt="darkmode"> </button> -->
+<h1><center> MY WEEKLY TO DO TASKS</center></h1>
+<div class="search">
+    <input type="text" placeholder="place the task">
+    <button class="btn" style="font-family: fantasy;";>+</button>
+    <h2>My Tasks</h2>
+    <ul class="taskcontainer">
+
+    </ul>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
